@@ -1,0 +1,55 @@
+h1{
+    font-size: 5rem;
+    color: rgb(78, 77, 77);
+}
+h2{
+    font-size: 2rem;
+    color: rgb(78, 77, 77);
+    margin-left: 6rem;
+    margin-top: -3rem;
+}
+.correo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25rem;
+    
+}
+.arroba{
+    max-width: 1rem;
+}
+.celular{
+    max-width: 2rem;
+}
+.ubicacion{
+    max-width: 2rem;
+}
+.numero{
+    display: flex;
+    flex-direction: row;
+    margin-left: 24rem;
+}
+.direccion{
+    display: flex;
+    flex-direction: row;
+    margin-left: 24rem;
+}
+.foto{
+    max-width: 28rem;
+    margin-left: 45rem;
+    margin-top: 1rem;
+    padding: 4rem;
+    background-color: rgb(73, 72, 72); ;
+    
+
+}
+.borde{
+    position: absolute;
+    border: 0.3rem solid ;
+    margin-top: 5rem;
+    color: rgb(118, 115, 115);
+    width: 80rem;
+    
+}
+p{
+    font-size: 1rem;
+}

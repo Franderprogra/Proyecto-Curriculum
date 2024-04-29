@@ -1,12 +1,17 @@
 h1{
-    font-size: 5rem;
+    margin-left: 3rem;
+    font-size: 4rem;
     color: rgb(78, 77, 77);
 }
 h2{
     font-size: 2rem;
     color: rgb(78, 77, 77);
     margin-left: 6rem;
-    margin-top: -3rem;
+    margin-top: -2rem;
+}
+h3{
+    color: rgb(67, 66, 66) ;
+    font-size: 2.2rem;
 }
 .correo{
     display: flex;
@@ -34,9 +39,9 @@ h2{
     margin-left: 24rem;
 }
 .foto{
-    max-width: 28rem;
+    max-width: 25rem;
     margin-left: 45rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     padding: 4rem;
     background-color: rgb(73, 72, 72); ;
     
@@ -47,9 +52,31 @@ h2{
     border: 0.3rem solid ;
     margin-top: 5rem;
     color: rgb(118, 115, 115);
-    width: 80rem;
+    width: 75rem;
     
 }
 p{
     font-size: 1rem;
+}
+button{
+    
+    margin-left: 3rem;
+    width: 18rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    
+}
+.estudios{
+    padding: 3rem;
+    background-color: rgb(189, 189, 189);
+    width: 25rem;
+    
+}
+.subtitulo{
+    font-size: 1rem;
+
+}
+.colorP{
+    color: rgb(67, 66, 66) ;
+
 }

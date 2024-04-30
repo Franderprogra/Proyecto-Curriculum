@@ -14,13 +14,15 @@ h3{
     font-size: 2.2rem;
 }
 h6{
-    font-size: 1rem; 
+    font-size: 25px; 
 }
 h4{
     font-size: 2rem;
 }
 h5{
     font-size: 2rem;
+    margin-left: 50rem;
+    
 
 }
 .correo{
@@ -77,9 +79,10 @@ button{
     
 }
 .estudios{
-    padding: 3rem;
+    padding: 4rem;
     background-color: rgb(189, 189, 189);
-    width: 25rem;
+    width: 35rem;
+    margin-top: -58rem;
     
 }
 .subtitulo{
@@ -88,10 +91,26 @@ button{
 }
 .colorP{
     color: rgb(67, 66, 66) ;
+    font-size: 25px;
 
 }
 .lineas{
     border-left: 5px solid gray;
     border-radius: 4px;
     padding: 1rem;
+}
+.experiencia{
+   margin-left: 48rem;
+   margin-top: 7rem;
+  
+}
+.titulo1{
+    color: rgb(67, 66, 66) ;
+    font-size: 2.2rem;
+}
+.Subtitulo2{
+    font-size: 25px;
+}
+.lineas2{
+    border-bottom: 4px solid gray;
 }

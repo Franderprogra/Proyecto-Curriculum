@@ -169,3 +169,61 @@ button{
     background-color: rgb(189, 189, 189);
     width: 30rem;
 }
+.modalcontainer{
+    position: relative;
+
+    display: none;
+    max-height: 60rem;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+   
+   
+
+
+}
+
+.modalcontainer .modalconten{
+    position: relative;
+
+    background-color: #868282;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid rgb(8, 8, 8);
+    width: 60%;
+  
+
+}
+
+.modalcontainer .close{
+    position: relative;
+
+    color: red;
+    float: right;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.modalcontainer .close:hover .close:focus{
+    color: #101010;
+    text-decoration: none;
+   cursor:  pointer;
+
+
+}
+.TITULO3{
+    color: white;
+    margin-top: 10px;
+    
+
+}
+.contenedor{
+    color: white;
+    
+
+}
+

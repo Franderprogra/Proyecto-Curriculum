@@ -14,15 +14,18 @@ h3{
     font-size: 2.2rem;
 }
 h6{
-    font-size: 1rem; 
+    font-size: 25px; 
 }
 h4{
     font-size: 2rem;
 }
 h5{
     font-size: 2rem;
+    margin-left: 50rem;
+    
 
 }
+
 .correo{
     display: flex;
     flex-direction: row;
@@ -54,7 +57,8 @@ h5{
     margin-top: 3rem;
     padding: 4rem;
     background-color: rgb(73, 72, 72); ;
-    
+    box-shadow: 0 9px #999;
+    border-radius: 2rem;
 
 }
 .borde{
@@ -64,23 +68,30 @@ h5{
     color: rgb(153, 158, 127);
     width: 75rem;
     
+    
 }
 p{
     font-size: 1rem;
 }
+.button2:hover{background-color: gray}
 button{
     
     margin-left: 3rem;
     width: 18rem;
     border-radius: 2rem;
     font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
     
 }
+
 .estudios{
-    padding: 3rem;
+    padding: 4rem;
     background-color: rgb(189, 189, 189);
-    width: 25rem;
-    
+    width: 35rem;
+    margin-top: -55rem;
+    box-shadow: 0 9px #101010;
+    border-radius: 2rem;
 }
 .subtitulo{
     font-size: 1rem;
@@ -88,6 +99,7 @@ button{
 }
 .colorP{
     color: rgb(67, 66, 66) ;
+    font-size: 25px;
 
 }
 .lineas{
@@ -95,3 +107,123 @@ button{
     border-radius: 4px;
     padding: 1rem;
 }
+.experiencia{
+   margin-left: 48rem;
+   margin-top: 7rem;
+  
+}
+.titulo1{
+    color: rgb(67, 66, 66) ;
+    font-size: 2.2rem;
+}
+.Subtitulo2{
+    font-size: 25px;
+}
+.lineas2{
+    border-bottom: 4px solid gray;
+}
+.punto{
+    width: 30px;
+}
+.plus{
+    margin-left: 40px;
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.plus2{
+    font-size: 30px;
+    color: rgb(67, 66, 66) ;
+}
+.habilidades{
+    width: 30px;
+}
+.orden{
+    display: flex;
+    flex-direction: row;
+}
+.calendario{
+    width: 80px;
+    margin-left: 50px;
+}
+.texto{
+    font-size: 40px;
+    color: rgb(67, 66, 66);
+}
+.señal{
+    width: 80px;
+   
+}
+.orden2{
+    display: flex;
+    flex-direction: row;
+}
+.pieza{
+    width: 80px;
+}
+.cuadro{
+    padding: 2rem;
+    margin-left: 45rem;
+    margin-top: -25rem;
+    background-color: rgb(189, 189, 189);
+    width: 30rem;
+}
+.modalcontainer{
+    position: relative;
+
+    display: none;
+    max-height: 60rem;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+   
+   
+
+
+}
+
+.modalcontainer .modalconten{
+    position: relative;
+
+    background-color: #868282;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid rgb(8, 8, 8);
+    width: 60%;
+  
+
+}
+
+.modalcontainer .close{
+    position: relative;
+
+    color: red;
+    float: right;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.modalcontainer .close:hover .close:focus{
+    color: #101010;
+    text-decoration: none;
+   cursor:  pointer;
+
+
+}
+.TITULO3{
+    color: white;
+    margin-top: 10px;
+    
+
+}
+.contenedor{
+    color: white;
+    
+
+}
+
